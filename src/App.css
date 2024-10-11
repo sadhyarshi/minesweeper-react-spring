@@ -1,0 +1,68 @@
+/* Controls for Difficulty Dropdown */
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.difficulty-dropdown {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Center the game container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Restart button */
+.restart-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restart-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+/* Board styling */
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  grid-template-rows: repeat(5, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px; /* Add space between board and button */
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #e74c3c;
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(5, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #e74c3c;
+  }
+  

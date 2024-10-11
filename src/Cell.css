@@ -1,0 +1,35 @@
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: #ecf0f1;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 8px;
+  }
+  
+  .cell:hover {
+    background-color: #bdc3c7;
+    transform: scale(1.05);
+  }
+  
+  .cell.safe {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .cell.mine {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .cell.safe, .cell.mine {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
